@@ -1,0 +1,35 @@
+Flutter framwork is a UI SDK (Software developmet kit)
+
+Flutter uses Dart as language (Dart and flutter are developed by google)
+
+Dart Supports OOP (Object oriented programing)
+
+////////// Dart: ///////////
+
+1- if condition
+2- Loops (For- do while - while - for in - for of)
+3- Switch and case
+4- Try and catch
+
+5- Variables (Final- const - var)
+6- Functions
+7- OOP (constructor- class - widget)
+8- async & await (Futures)
+9- Streams (Observables)
+10- null safety
+
+How to validate a textfiled :
+
+1- make it as TextFormField instead of TextFiled to be able to use validator parameter.
+2- wrap both textformfield and the button with a widget named (Form)
+3- Gives the form a form key (key parameter) that we defined above
+4- Use validator paramter in textformfield to put your condition
+5- in the button , Check the textfield validation
+
+//////// Flutter //////////
+
+1- Form validation
+2- Map , Object: connectin relevant data together
+{
+key(in map"string", in object "var") : value (dynamic)
+}
